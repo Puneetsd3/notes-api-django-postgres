@@ -85,7 +85,7 @@ DATABASES = {
         ssl_require=True
     )
 }
-DATABASES = {
+'''DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'postgres',
@@ -94,7 +94,7 @@ DATABASES = {
         'HOST': 'localhost',
         'PORT': '5432',
     }
-}
+}'''
 
 
 # Password validation
