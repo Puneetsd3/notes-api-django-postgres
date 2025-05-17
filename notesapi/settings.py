@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'notesapi.wsgi.application'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 DATABASES = {
     'default': dj_database_url.config(
-        default='postgres://postgres:postgres@localhost:5432/postgres',  # placeholder fallback
+        default='postgresql://notesdb_zyum_user:krHzNmUTPwVx3Cph6rAohuXHoC9R1yYu@dpg-d0k5i7vfte5s738cg4i0-a/notesdb_zyum',  # placeholder fallback
         conn_max_age=600,
         ssl_require=True
     )
