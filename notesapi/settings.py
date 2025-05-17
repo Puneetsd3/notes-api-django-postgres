@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-5w8xn6%=oy&v^bmw_jv=)hrh5a^qg4efipw9(j5@_hys@dag_0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['notes-api-django.onrender.com']
+ALLOWED_HOSTS = ['notes-api-django-postgres.onrender.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
